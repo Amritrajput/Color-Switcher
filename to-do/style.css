@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+ body{
+    height: 100%;
+    width: 100%;
+    
+ }
+ .container{
+    /* background-color: red; */
+    max-width: 35rem;
+    border-radius:10px ;
+    box-shadow: 0 0 10px black;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 10px;
+ }
+
+ .addContainer{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+ }
+
+ .addContainer > input{
+    padding: 10px;
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 5px;
+ }
+ .addContainer > button{
+    padding:0 15px ;
+    background-color: lightseagreen;
+    border-radius: 5px;
+    border: none;
+    transition: all linear 0.3s;
+ }
+ .addContainer > button:active{
+    scale: 0.8;
+ }
+  .listContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+ .listContainer .list{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 12px;
+    border-radius: 5px;
+ }
+  .listContainer .delButton{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
